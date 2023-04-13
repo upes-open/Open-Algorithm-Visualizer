@@ -6,6 +6,7 @@
 
 Application was created to provide a visualization of various data structure algorithms for users to better understand the algorithms and how they work.
 
+
 ### Links and Resources
 
 - [GitHub Repo](https://github.com/Med16-11/Open-Algorithm-Visualizer) 
