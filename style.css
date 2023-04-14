@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    background-color: #1D3557;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1D3557;
+    padding: 30px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #F1FAEE;
+    margin-left: 5rem;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+    transform: scale(95%);
+    transition: all ease 0.5s;
+}
+
+.header-container {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+.header-title {
+    text-align: center;
+    font-weight: semi-bold;
+    font-size: 58px;
+    margin: 0px;
+}
+
+
+
+.content-container {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    padding: 10rem 4rem;
+    background-color: white;
+}
+
+.half {
+    width: 49.9999%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    border: solid #1D3557;
+    border-radius: 2rem;
+    padding: 2rem;
+    transition: all ease 0.5s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all ease 0.5s;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    background-color: #E63946;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    border: solid azure;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.header-button {
+    margin-top: 2rem;
+    background-color: #E63946;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+    border: solid #E63946;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    font-size: large;
+}
+
+.header-button:hover {
+    transform: scale(95%);
+    transition: all ease 0.5s;
+}
+
+.button:hover {
+    transform: scale(98%);
+    transition: all ease 0.5s;
+}
+
+.footer {
+    background-color: #1D3557;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer h3 {
+    text-align: center;
+    color: #F1FAEE;
+    padding-top: 2rem;
+}
+
+.w3-tooltip {
+    position: relative;
+    bottom: 55px;
+    left: 85%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .navbar {
+        display: none;
+    }
+
+
+    .header-container {
+        min-height: 844px;
+
+    }
+
+    .content-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 3rem 1rem;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .half {
+        width: 90%;
+    }
+
+    .w3-tooltip {
+        display: none;
+    }
+
+}
